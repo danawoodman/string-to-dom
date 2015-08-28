@@ -11,6 +11,7 @@ import isElement from 'is-element'
  * @throws {TypeError} Will throw a TypeError if `html` is invalid/badly formatted
  * @throws {TypeError} Will throw a TypeError if `target` is provided but is not a valid HTMLElement
  * @todo Add `position` support
+ * @module stringToDom
  */
 export default function stringToDom(html, target) {
   if (!target) {
