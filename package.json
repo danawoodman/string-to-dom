@@ -17,7 +17,7 @@
     "watch-build": "npm run build -- --watch",
     "watch-test": "npm run test -- --auto-watch --no-single-run"
   },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "dom",
     "string",
