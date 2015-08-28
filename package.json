@@ -1,0 +1,65 @@
+{
+  "name": "string-to-dom",
+  "description": "Add a string of HTML to the DOM and return the new element.",
+  "main": "./lib/index.js",
+  "config": {
+    "entry": "./src/index.js"
+  },
+  "scripts": {
+    "build": "babel -o $npm_package_main $npm_package_config_entry",
+    "dist": "npm run lint && npm run build && npm test && npm run docs",
+    "docs": "jsdoc2md $npm_package_config_entry > api.md",
+    "lint": "eslint .",
+    "prepublish": "npm run build",
+    "preversion": "npm run dist",
+    "test": "NODE_ENV=test karma start",
+    "watch": "npm run watch-build & npm run watch-test",
+    "watch-build": "npm run build -- --watch",
+    "watch-test": "npm run test -- --auto-watch --no-single-run"
+  },
+  "version": "0.0.0",
+  "keywords": [
+    "dom",
+    "string",
+    "html",
+    "test",
+    "util",
+    "utility",
+    "lib",
+    "library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danawoodman/string-to-dom/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danawoodman/string-to-dom.git"
+  },
+  "author": "Dana Woodman",
+  "homepage": "https://github.com/danawoodman/string-to-dom#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "eslint": "^1.2.1",
+    "eslint-plugin-nodeca": "^1.0.3",
+    "jsdoc-to-markdown": "^1.1.1",
+    "karma": "^0.13.9",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-nyan-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.18",
+    "webpack": "^1.12.0"
+  },
+  "dependencies": {
+    "is-element": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
