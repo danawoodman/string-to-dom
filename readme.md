@@ -1,9 +1,9 @@
 # string-to-dom
 
-![](https://img.shields.io/travis/danawoodman/string-to-dom.svg)
+[![Travis CI build status](https://img.shields.io/travis/danawoodman/string-to-dom.svg)](https://travis-ci.org/danawoodman/string-to-dom)
 [![Dependency Status](https://img.shields.io/david/danawoodman/string-to-dom.svg)](https://david-dm.org/danawoodman/string-to-dom)
-![](https://img.shields.io/npm/dm/string-to-dom.svg)
-![](https://img.shields.io/npm/v/string-to-dom.svg)
+[![View on npm](https://img.shields.io/npm/dm/string-to-dom.svg)](https://www.npmjs.com/package/string-to-dom)
+[![View on npm](https://img.shields.io/npm/v/string-to-dom.svg)](https://www.npmjs.com/package/string-to-dom)
 
 > Add a string of HTML to the DOM and return the new HTML element.
 
