@@ -5,7 +5,7 @@
 ![](https://img.shields.io/npm/dm/string-to-dom.svg)
 ![](https://img.shields.io/npm/v/string-to-dom.svg)
 
-> Add a string of HTML to the DOM and return it.
+> Add a string of HTML to the DOM and return the new HTML element.
 
 Uses `insertAdjacentHTML` to add a given string to the DOM in an efficient manner and return the newly created HTML element.
 
