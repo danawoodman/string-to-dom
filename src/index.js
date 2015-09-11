@@ -4,14 +4,13 @@ import isElement from 'is-element'
  * Adds the given valid HTML string to the page and returns the
  * resultant DOM node.
  *
- * @todo Allow user to specify target node, default to document.body
  * @param {String} html The HTML string to insert
- * @param {?HTMLElement} [target=document.body] The optional target element to add HTML to
+ * @param {HTMLElement} [target=document.body] The optional target element to add HTML to
  * @returns {HTMLElement} The DOM node that was inserted
  * @throws {TypeError} Will throw a TypeError if `html` is invalid/badly formatted
  * @throws {TypeError} Will throw a TypeError if `target` is provided but is not a valid HTMLElement
- * @todo Add `position` support
  * @module stringToDom
+ * @todo Add `position` support
  */
 export default function stringToDom(html, target) {
   if (!target) {
