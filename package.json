@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel $npm_package_config_entry --out-dir $npm_package_config_output",
     "dist": "npm run lint & npm run build & npm run docs & npm test",
-    "docs": "jsdoc2md $npm_package_config_entry > api.md",
+    "docs": "jsdoc2md $npm_package_config_mainFile > api.md",
     "lint": "eslint .",
     "prepublish": "npm run dist",
     "test": "NODE_ENV=test karma start",

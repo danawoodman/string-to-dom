@@ -11,7 +11,6 @@ resultant DOM node.
 
 **Todo**
 
-- [ ] Allow user to specify target node, default to document.body
 - [ ] Add `position` support
 
 
