@@ -2,7 +2,7 @@ var pkg = require('./package.json')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: [ pkg.config.entry ],
+  entry: [ pkg.config.mainFile ],
   output: {
     path: __dirname + '/lib',
     filename: 'index.js',

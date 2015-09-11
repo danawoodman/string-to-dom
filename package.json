@@ -5,7 +5,7 @@
   "config": {
     "entry": "src",
     "output": "lib",
-    "mainFile": "src/index.js"
+    "mainFile": "./src/index.js"
   },
   "scripts": {
     "build": "babel $npm_package_config_entry --out-dir $npm_package_config_output",
