@@ -1,7 +1,7 @@
 {
   "name": "string-to-dom",
   "description": "Add a string of HTML to the DOM and return the new element.",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "config": {
     "entry": "src",
     "output": "lib",
