@@ -12,7 +12,6 @@
     "dist": "npm run lint && npm run build && npm test && npm run docs",
     "docs": "jsdoc2md $npm_package_config_mainFile > api.md",
     "lint": "eslint .",
-    "prepublish": "npm run dist",
     "test": "NODE_ENV=test karma start",
     "watch": "npm run watch-build & npm run watch-test",
     "watch-build": "npm run build -- --watch",
@@ -44,7 +43,7 @@
     "babel-core": "^5.8.24",
     "babel-loader": "^5.3.2",
     "chai": "^3.2.0",
-    "eslint": "^1.4.0",
+    "eslint": "^1.4.3",
     "eslint-plugin-nodeca": "^1.0.3",
     "jsdoc-to-markdown": "^1.1.1",
     "karma": "^0.13.9",
@@ -55,7 +54,7 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.3.2",
     "phantomjs": "^1.9.18",
-    "webpack": "^1.12.1"
+    "webpack": "^1.12.2"
   },
   "dependencies": {
     "is-element": "^0.1.0"
