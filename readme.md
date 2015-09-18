@@ -4,6 +4,7 @@
 [![Dependency Status](https://img.shields.io/david/danawoodman/string-to-dom.svg)](https://david-dm.org/danawoodman/string-to-dom)
 [![View on npm](https://img.shields.io/npm/dm/string-to-dom.svg)](https://www.npmjs.com/package/string-to-dom)
 [![View on npm](https://img.shields.io/npm/v/string-to-dom.svg)](https://www.npmjs.com/package/string-to-dom)
+[![Code Climate](https://codeclimate.com/github/danawoodman/string-to-dom/badges/gpa.svg)](https://codeclimate.com/github/danawoodman/string-to-dom)
 
 > Add a string of HTML to the DOM and return the new HTML element.
 
